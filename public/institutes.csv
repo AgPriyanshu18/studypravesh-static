@@ -1,11 +1,5 @@
-id,name,category,location,image_url
-1,Aurobindo International School,School,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/a/u/aurobindo-international-school.jpg
-2,Panacea Institute,Coaching,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/1/_/1_4.jpg
-3,Amity University,University,Greater Noida - Delhi NCR,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/1/_/1_2.jpg
-4,Step Ahead Public School,School,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/i/m/img-20151208-wa0002.jpg
-5,Advanced Education,Coaching,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/a/d/advanced_education.jpg
-6,Meritto Coaching Institute,Coaching,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/m/e/meritto.png
-7,Study Zone,Coaching,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/j/p/jpg_logo.jpg
-8,Engineers Academy,Coaching,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/0/0/003_1_.jpg
-9,Maharishi Arvind University,University,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/m/a/maharishi-arvind-university-jaipur_1.png
-10,The SRM University,University,Kancheepuram Tamil Nadu,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/s/r/srm.png
+id,name,url_key,category,location,image_url,short_description,description,telephone
+1,Aurobindo International School,aurobindo-international-school-sirsi-road-jaipur,School,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/a/u/aurobindo-international-school.jpg,Best school in jaipur,Complete description about Aurobindo school here.,9876543210
+2,Panacea Institute,panacea-jaipur,Coaching,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/1/_/1_4.jpg,Best coaching,Panacea complete details.,9876543211
+3,Amity University,amity-university-greater-noida-delhi-ncr,University,Greater Noida - Delhi NCR,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/1/_/1_2.jpg,Top private university.,Amity complete details.,9876543212
+4,Step Ahead Public School,step-ahead-public-school-jaipur-rajasthan-193,School,Jaipur Rajasthan,https://studypravesh.com/media/catalog/product/cache/1/thumbnail/300x200/9df78eab33525d08d6e5fb8d27136e95/i/m/img-20151208-wa0002.jpg,A great school.,Step ahead complete details.,9876543213
