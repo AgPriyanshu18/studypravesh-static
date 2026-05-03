@@ -39,13 +39,15 @@ const Category = ({ type }) => {
             {filtered.map(inst => (
               <div className="featured-card" key={inst.id} style={{width: '230px'}}>
                 <Link to={`/${inst.url_key}.html`}>
-                  <img src={inst.image_url} alt={inst.name} />
+                  <img src={inst.image_url || 'https://via.placeholder.com/230x150?text=No+Image'} alt={inst.name} />
                 </Link>
                 <div className="card-detail">
                   <Link to={`/${inst.url_key}.html`} style={{textDecoration: 'none'}}>
                     <h4 style={{fontWeight: 'bold', color: '#333'}}>{inst.name}</h4>
                   </Link>
-                  <p style={{fontSize: '12px', color: '#666', margin: '5px 0'}}>{inst.location}</p>
+                  <p style={{fontSize: '12px', color: '#666', margin: '5px 0'}}>
+                    {[inst.city, inst.state].filter(Boolean).join(', ')}
+                  </p>
                   <Link to={`/${inst.url_key}.html`} className="btn-filter" style={{display: 'inline-block', padding: '5px 10px', fontSize: '12px', textDecoration: 'none', marginTop: '10px'}}>
                     View Details
                   </Link>
